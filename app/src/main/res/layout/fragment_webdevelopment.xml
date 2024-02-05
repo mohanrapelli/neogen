@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment"
+    android:background="@color/white"
+    tools:context=".fragments.services.Webdevelopment">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Web Development"
+                    android:textColor="#301934"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Template Designing"
+                    android:textColor="#301934"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pop"
+                    android:text="@string/template"
+                    android:textColor="#301934"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/template" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Word Press Designing"
+                    android:textColor="#301934"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pop"
+                    android:text="@string/wordpress"
+                    android:textColor="#301934"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/wordpress" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Responsive Web Design"
+                    android:textColor="#301934"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pop"
+                    android:text="@string/responsive_web"
+                    android:textColor="#301934"
+                    android:textSize="20sp" />
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/responsiveweb" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Our Theme"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="We Give Our Priority to"
+                    android:textColor="#301934"
+                    android:textSize="27sp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#F1CFFD"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#AFAEAE"
+                    android:layout_height="1dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:outlineProvider="background"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Our Customers Mean the World"
+                    android:textColor="#301934"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pop"
+                    android:text="@string/ourcustomers"
+                    android:textColor="#301934"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="20sp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#F1CFFD"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#AFAEAE"
+                    android:layout_height="1dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:outlineProvider="background"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Every Individual Deserves a Website/App"
+                    android:textColor="#301934"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pop"
+                    android:text="@string/individualwebsite"
+                    android:textColor="#301934"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#F1CFFD"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#AFAEAE"
+                    android:layout_height="1dp"
+                    android:elevation="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:outlineProvider="background"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="sans-serif"
+                    android:text="In-House Made"
+                    android:textColor="#301934"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/pop"
+                    android:text="@string/inhousemade"
+                    android:textColor="#301934"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+

@@ -1,0 +1,73 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/about_us"
+        android:title="About us" />
+
+    <item
+        android:id="@+id/services"
+        android:title="Services">
+        <menu>
+            <group
+                android:id="@+id/group_page"
+               >
+
+                <item
+                    android:id="@+id/page1"
+                    android:title="Web Development" />
+
+                <item
+                    android:id="@+id/page2"
+
+                    android:title="Database Management" />
+
+                <item
+                    android:id="@+id/page3"
+
+                    android:title="App Development" />
+
+                <item
+                    android:id="@+id/page4"
+
+                    android:title="Digital Marketing" />
+
+                <item
+                    android:id="@+id/page5"
+
+                    android:title="Testing" />
+
+                <item
+                    android:id="@+id/page6"
+                    android:title="ERP Solutions" />
+
+                <item
+                    android:id="@+id/page7"
+                    android:title="Payroll" />
+
+                <item
+                    android:id="@+id/page8"
+                    android:title="IOT Technologies" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/development"
+        android:title="Development" />
+
+    <item
+        android:id="@+id/careers"
+        android:title="Careers" />
+
+    <item
+        android:id="@+id/contact"
+        android:title="Contact" />
+
+</menu>

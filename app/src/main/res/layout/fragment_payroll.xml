@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.services.Payroll">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="35dp"
+                android:text="Payroll"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/pop"
+                android:layout_marginLeft="7dp"
+                android:text="Payroll is the compensation a business must pay to its employees for a set period or on a given date. It is usually managed by the accounting or human resources department of a company. Small-business payrolls may be handled directly by the owner or an associate. Increasingly, payroll is outsourced to specialized firms that handle paycheck processing, employee benefits, insurance, and accounting tasks, such as tax withholding. Many payroll fintech firms, such as Atomic, Bitwage, Finch, Pinwheel, and Wagestream, are leveraging technology to simplify payroll processes. These solutions pay employees with greater convenience and speed and provide digital payroll-related documents with innovative technology-enabled services required by the gig and outsourcing economy. Payroll can also refer to the list of a company’s employees and the amount of compensation due to each of them. Payroll is a major expense for most businesses and is almost always deductible, meaning the expense can be deducted from gross income lowering the company’s taxable income. 1 Payroll can differ from one pay period to another because of overtime, sick pay, and other variables. ."
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Theme"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:textSize="27dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="We Give Our Best Priority to"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#CCCCCC"
+                android:elevation="2dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Customer Mean The World"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="35dp"
+                android:fontFamily="@font/pop"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="At Perfex, we strive to provide exactly what our customers are looking for. A huge part of our brainstorming process is looking at our client feedback to make sure you're well taken care of."/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#CCCCCC"
+                android:elevation="2dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Every Individual Deserves A Website"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="With 93% of business decisions starting with a search engine search that means if you don't have a website, you are only selling to 7% of your market. That is right, you are reducing the potential size of your business by 93%."
+                android:textSize="16dp"
+                android:fontFamily="@font/pop"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="28dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:background="#CCCCCC"
+                android:elevation="2dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="In-House Made"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="35dp"
+                android:gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/pop"
+                android:text="We are personally committed to delivering the very best. Everything, from product design and development to customer support, is provided by our dedicated and adorable team."/>
+
+        </LinearLayout>
+    </ScrollView>
+
+

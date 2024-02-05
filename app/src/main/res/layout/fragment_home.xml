@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    tools:context=".fragments.Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/about_neogen"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/voliet"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/b"
+        android:textSize="23sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/pop"
+        android:textColor="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read More"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:id="@+id/readmore"
+        android:padding="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:background="@color/voliet"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:background="#EAE7E7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Our Clients"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:textStyle="bold"
+            android:textSize="28sp"/>
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:layout_width="350dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:id="@+id/imageSlider"
+            android:layout_marginBottom="40dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="1800"
+            app:iss_delay="0"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:id="@+id/imageview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20+"
+            android:fontFamily="@font/abb"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/textview1"
+            android:textSize="31dp"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Happy"
+            android:textColor="@color/white"
+            android:id="@+id/a"
+            android:layout_below="@id/textview1"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clients"
+            android:layout_below="@id/a"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20+"
+            android:fontFamily="@font/abb"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/textview1"
+            android:id="@+id/textview2"
+            android:textSize="31dp"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Projects"
+            android:textColor="@color/white"
+            android:layout_below="@id/textview2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="34dp"
+            android:layout_toRightOf="@id/a"
+            android:id="@+id/c"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20+"
+            android:fontFamily="@font/abb"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@id/textview2"
+            android:id="@+id/textview3"
+            android:textSize="31dp"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Years Of"
+            android:textColor="@color/white"
+            android:layout_below="@id/textview3"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="34dp"
+            android:id="@+id/d"
+            android:layout_toEndOf="@+id/c"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:textColor="@color/white"
+            android:layout_below="@id/d"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/c"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20+"
+            android:fontFamily="@font/abb"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginStart="44dp"
+            android:layout_toEndOf="@id/textview3"
+            android:id="@+id/textview4"
+            android:textSize="31dp"
+            android:layout_marginTop="130dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:textColor="@color/white"
+            android:layout_below="@id/textview4"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="58dp"
+            android:layout_toEndOf="@+id/d"
+            android:id="@+id/e"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:textColor="@color/white"
+            android:layout_below="@id/e"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="59dp"
+            android:layout_toRightOf="@+id/d"
+            android:textSize="14dp"/>
+        <View
+            android:layout_width="270dp"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/d"
+            android:layout_marginTop="70dp"
+
+            >
+
+        </View>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@color/voliet">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="CONTACT US"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Get In Touch &amp;"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/newfont"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reach Us"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/newfont"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="#505c7c">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/abc"
+                app:tint="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" +91 8096836538"
+            android:textColor="@color/white"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="#505c7c">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:src="@drawable/gps"
+                app:tint="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Our Address"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:fontFamily="@font/newfont"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="NEO-GEN SOFT TECH SOLUTIONS,"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="The Corpwork Plot no-81, Hi-tech City,"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hyderabad TS-500081."
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="15dp"/>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="#505c7c">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:src="@drawable/emaill"
+                app:tint="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/newfont"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="info@neogensofttech.in"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="45dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aaa"
+        android:textSize="18dp"
+        android:textColor="@color/voliet"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="17dp"
+        android:textStyle="bold"
+        android:textAlignment="center">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="98dp">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:hint="   Name:"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:hint="   Email:"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:hint="   Subject:"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="top"
+            android:hint="   Message:"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/border"/>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Send Message"
+            android:gravity="center"
+
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+</LinearLayout>

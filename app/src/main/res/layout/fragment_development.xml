@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment"
+    android:background="@color/white"
+    tools:context=".fragments.Development">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Training and Development"
+                android:textColor="#301934"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/trainingdevelopment"
+                android:textColor="#301934"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/bomma" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/intro"
+                android:textColor="#301934"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/trainingdev1"
+                android:textColor="#301934"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Employee Training and Development"
+                android:textColor="#301934"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/emptd"
+                android:textColor="#301934"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Management Training and Development"
+                android:textColor="#301934"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/mantd"
+                android:textColor="#301934"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif"
+                android:text="Technologies"
+                android:textColor="#3E1F43"
+                android:textSize="25sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrowright"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/topic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textColor="@color/orange"
+                    android:textSize="25sp"
+                    android:text="Java"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/java"
+                android:id="@+id/data"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="5dp"
+                android:outlineProvider="background"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrownet"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/net"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textColor="@color/orange"
+                    android:textSize="25sp"
+                    android:text=".NET"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/dotnet"
+                android:id="@+id/dotnet"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="5dp"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrownetworking"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/networking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="25sp"
+                    android:textColor="@color/orange"
+                    android:text="Networking"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/networking"
+                android:id="@+id/networkingdata"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="5dp"
+                android:outlineProvider="background"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrowawt"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/awt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="25sp"
+                    android:textColor="@color/orange"
+                    android:text="AWT"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/awt"
+                android:id="@+id/awtdata"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="5dp"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrowazure"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/azure"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="25sp"
+                    android:textColor="@color/orange"
+                    android:text="Azure"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/azure"
+                android:id="@+id/azuredata"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="5dp"
+                android:outlineProvider="background"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrowsalesforce"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/salesforce"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="25sp"
+                    android:textColor="@color/orange"
+                    android:text="SalesForce"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/salesforce"
+                android:id="@+id/salesforcedata"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="5dp"
+                android:outlineProvider="background"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrowpowerbi"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/powerbi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="25sp"
+                    android:textColor="@color/orange"
+                    android:text="Power Bi"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/powerbi"
+                android:id="@+id/powerbidata"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="5dp"
+                android:outlineProvider="background"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/arrowsap"
+                    android:layout_width="match_parent"
+                    android:layout_height="30sp"
+                    android:layout_weight="0.9"
+                    android:src="@drawable/baseline_arrow_right_24" />
+                <TextView
+                    android:id="@+id/sap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="25sp"
+                    android:textColor="@color/orange"
+                    android:text="SAP(All Modules)"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/pop"
+                android:text="@string/SAP"
+                android:id="@+id/sapdata"
+                android:textColor="#301934"
+                android:visibility="gone"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F1CFFD"/>
+            <View
+                android:layout_width="match_parent"
+                android:background="#AFAEAE"
+                android:layout_height="1dp"
+                android:elevation="5dp"
+                android:layout_marginBottom="20dp"
+                android:outlineProvider="background"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

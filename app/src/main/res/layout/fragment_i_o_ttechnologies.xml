@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.services.IOTtechnologies">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IOT Technologies"
+                android:layout_marginTop="15dp"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="7dp"
+                android:textSize="19dp"
+                android:fontFamily="@font/pop"
+                android:text="The internet of things (IoT) is a catch-all term for the growing number of electronics that aren’t traditional computing devices, but are connected to the internet to send data, receive instructions or both. There’s an incredibly broad range of ‘things’ that fall under the IoT umbrella: Internet-connected ‘smart’ versions of traditional appliances such as refrigerators and light bulbs; gadgets that could only exist in an internet-enabled world such as Alexa-style digital assistants; and internet-enabled sensors that are transforming factories, healthcare, transportation, distribution centers and farms."
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/iot"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+
+
+
+</FrameLayout>

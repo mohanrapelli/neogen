@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:orientation="vertical"
+    tools:context=".activties.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/voliet"
+        android:id="@+id/layout1"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+<ImageView
+    android:layout_width="200dp"
+    android:layout_height="80dp"
+    android:src="@drawable/neogen"
+    android:layout_gravity="center"
+    >
+
+</ImageView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/voliet"
+            android:layout_marginBottom="1dp"
+            android:layout_below="@id/layout1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/side"
+                android:id="@+id/side"
+                android:layout_gravity="center"
+                >
+
+            </ImageView>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="MENU"
+           android:id="@+id/menutext"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:gravity="center"
+           android:textSize="25sp">
+
+       </TextView>
+
+        </LinearLayout>
+
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/framelayout">
+
+</FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@color/voliet">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neogen Softtech"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/abb"
+                android:textStyle="bold"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neogen_softtech_solutions_is_an_iso_9001_2015_company_that_provides_unparalleled_and_cutting_edge_it_solutions_at_competitive_costs_to_enterprises_world_wide"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                android:textSize="20dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="20dp">
+
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+                android:id="@+id/imagelogo"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="15dp">
+
+            </ImageView>
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/abb"
+                android:paddingLeft="15dp"
+                android:paddingTop="28dp">
+
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="United arcade, Attapur,Hyderabad - 500264"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/abb"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                >
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone : +918096836538"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/abb"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                >
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email : info@neogensofttech.in"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/abb"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                >
+
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:text="@string/a">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/facebook"
+                    android:src="@drawable/facebok">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/instagram"
+                    android:src="@drawable/insta">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/linkedin"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/linkedin">
+
+                </ImageView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        android:background="@color/voliet"
+app:itemTextColor="@color/white"
+
+        app:menu="@menu/side_nav"/>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
